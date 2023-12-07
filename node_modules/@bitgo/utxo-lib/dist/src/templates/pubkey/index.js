@@ -1,0 +1,5 @@
+module.exports = {
+    input: require('./input'),
+    output: require('./output')
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi9zcmMvdGVtcGxhdGVzL3B1YmtleS9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxNQUFNLENBQUMsT0FBTyxHQUFHO0lBQ2YsS0FBSyxFQUFFLE9BQU8sQ0FBQyxTQUFTLENBQUM7SUFDekIsTUFBTSxFQUFFLE9BQU8sQ0FBQyxVQUFVLENBQUM7Q0FDNUIsQ0FBQSIsInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0ge1xuICBpbnB1dDogcmVxdWlyZSgnLi9pbnB1dCcpLFxuICBvdXRwdXQ6IHJlcXVpcmUoJy4vb3V0cHV0Jylcbn1cbiJdfQ==

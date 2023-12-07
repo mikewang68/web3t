@@ -1,0 +1,32 @@
+{
+  "name": "@bitgo/blake2b",
+  "version": "3.0.1",
+  "description": "Blake2b (64-bit version) in pure Javascript",
+  "main": "index.js",
+  "dependencies": {
+    "@bitgo/blake2b-wasm": "^3.0.1",
+    "nanoassert": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "tape": "^4.6.3"
+  },
+  "scripts": {
+    "unit-test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BitGo/BitGoJS.git",
+    "directory": "modules/blake2b"
+  },
+  "keywords": [],
+  "author": "Emil Bay <github@tixz.dk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilbayes/blake2b/issues"
+  },
+  "homepage": "https://github.com/emilbayes/blake2b#readme",
+  "gitHead": "3d8946eb94fddc51924c8317fd70871062b4a755"
+}
