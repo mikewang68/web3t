@@ -10,11 +10,19 @@
     },
     messagePrefix: 'Ethereum',
     mask: 'V0000000000000',
+    /*
     api: {
       provider: 'velas2',
       web3Provider: 'https://explorer.velas.com/rpc',
       url: 'https://explorer.velas.com',
       apiUrl: 'https://explorer.velas.com/api'
+    },
+    */
+    api: {
+      provider: 'velas2',
+      web3Provider: 'http://192.168.101.101:8899',
+      url: 'http://192.168.101.101:8899',
+      apiUrl: 'http://192.168.101.101:8899'
     },
     HomeBridge: "0x38E20F6224449eCB50A81188147cbf990a00eA44",
     ForeignBridge: "0x1E4f16C92026B96D5bb42045993657d8b39253E9",
@@ -67,7 +75,7 @@
         referTo: "vlx_evm"
       }
     },
-    "group": "Velas"
+    "group": "Sino"
   };
   out$.mainnet = mainnet = mainnetConfig;
   out$.testnet = testnet = (typeof window != 'undefined' && window !== null ? (ref$ = window.location) != null ? (ref1$ = ref$.href) != null ? ref1$.indexOf('testnet2') : void 8 : void 8 : void 8) > -1 ? testnet2Config : testnetConfig;

@@ -11,23 +11,32 @@
     },
     messagePrefix: 'Ethereum',
     mask: '3000000000000000000000000000000000',
+    /*
     api: {
       provider: 'solana',
-      web3Provider: 'https://explorer.velas.com/rpc',
+      web3Provider: 'https://api.velas.com',
       url: 'https://native.velas.com',
       apiUrl: 'https://api.velas.com',
       validatorsBackend: 'https://validators.mainnet.velas.com',
+    },
+    */
+    api: {
+      provider: 'solana',
+      web3Provider: 'http://192.168.101.101:8899',
+      url: 'http://192.168.101.101:8899',
+      apiUrl: 'http://192.168.101.101:8899',
+      validatorsBackend: 'http://192.168.101.101:8899',
     },
     HomeBridge: "0x56454c41532d434841494e000000000053574150",
     networks: {
       vlx_evm: {
         id: "vlx_evm",
-        name: "Sino EVM",
+        name: "Velas EVM",
         referTo: "vlx_evm"
       },
       vlx2: {
         id: "vlx2",
-        name: "Sino Legacy",
+        name: "Velas Legacy",
         referTo: "vlx2"
       }
     },
