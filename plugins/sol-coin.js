@@ -31,12 +31,12 @@
     networks: {
       vlx_evm: {
         id: "vlx_evm",
-        name: "Velas EVM",
+        name: "Sino EVM",
         referTo: "vlx_evm"
       },
       vlx2: {
         id: "vlx2",
-        name: "Velas Legacy",
+        name: "Sino Legacy",
         referTo: "vlx2"
       }
     },
@@ -63,12 +63,12 @@
     networks: {
       vlx_evm: {
         id: "vlx_evm",
-        name: "Velas EVM",
+        name: "Sino EVM",
         referTo: "vlx_evm"
       },
       vlx2: {
         id: "vlx2",
-        name: "Velas Legacy",
+        name: "Sino Legacy",
         referTo: "vlx2"
       }
     },

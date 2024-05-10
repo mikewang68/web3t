@@ -31,7 +31,7 @@
     networks: {
       vlx_native: {
         id: "vlx_native",
-        name: "Velas Native",
+        name: "Sino Native",
         referTo: "vlx_native"
       },
       vlx_erc20: {
@@ -51,7 +51,7 @@
       },
       vlx2: {
         id: "vlx2",
-        name: "Velas Legacy",
+        name: "Sino Legacy",
         referTo: "vlx2"
       }
     },
@@ -81,7 +81,7 @@
     networks: {
       vlx_native: {
         id: "vlx_native",
-        name: "Velas Native",
+        name: "Sino Native",
         referTo: "vlx_native"
       },
       vlx_erc20: {
@@ -101,7 +101,7 @@
       },
       vlx2: {
         id: "vlx2",
-        name: "Velas Legacy",
+        name: "Sino Legacy",
         referTo: "vlx2"
       }
     }

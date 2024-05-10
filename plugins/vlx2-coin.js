@@ -32,12 +32,12 @@
       vlx_native: {
         disabled: false,
         id: "vlx_native",
-        name: "Velas Native",
+        name: "Sino Native",
         referTo: "vlx_native"
       },
       vlx_evm: {
         id: "vlx_evm",
-        name: "Velas EVM",
+        name: "Sino EVM",
         referTo: "vlx_evm"
       }
     },
@@ -66,12 +66,12 @@
       vlx_native: {
         disabled: false,
         id: "vlx_native",
-        name: "Velas Native",
+        name: "Sino Native",
         referTo: "vlx_native"
       },
       vlx_evm: {
         id: "vlx_evm",
-        name: "Velas EVM",
+        name: "Sino EVM",
         referTo: "vlx_evm"
       }
     },
